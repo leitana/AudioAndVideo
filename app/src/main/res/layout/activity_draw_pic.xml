@@ -6,5 +6,13 @@
     <ImageView
         android:id="@+id/imageview"
         android:layout_width="match_parent"
-        android:layout_height="200dp"/>
+        android:layout_height="200dp"
+        android:scaleType="fitXY"/>
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+    <com.lx.audioandvideo.primary.CustomView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 </LinearLayout>
